@@ -1,9 +1,17 @@
-star = input('hi give me anything')
-pop = input ("give another thing")
-def draw_1(n):
-    #star = input('give me a symbol ')
-    #pop = input ('give another one ' )
+"""
+def draw_1(n, c1):
+    for i in range(n):
+        print(n * c1)
+"""
+"""def draw_2(n, m, c):
+    for i in range(n):
+        print( m * c)
+"""
+def add_number(start , end , inc ):
+    c=0
+    for number in range (start , end + 1 , inc):
+        c = c + number
+    return c 
     
-    print(star * n)
-    print(pop * n)
     
+   
